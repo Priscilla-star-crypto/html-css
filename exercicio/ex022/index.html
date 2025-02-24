@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exenplo de pseudo class</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      div>ul{display: none;}
+      div:hover>ul{display: block;}
+      div{color: rgb(0, 0, 0);
+       font-family: Arial, Helvetica, sans-serif;
+       border:; border: 2px solid rgb(134, 187, 255);border-radius:5px ;padding: 5px;display: inline-block; background-color: rgb(134, 187, 255);}
+      h1{color: rgb(0, 0, 0);
+       text-align: center;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+       body{background-color: rgb(87, 153, 240);}
+       .search-bar input {
+    padding: 9px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 20px; /* Aqui a borda fica arredondada */
+    outline: none;
+}
+.search-container {text
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 1px;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        .search-container input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 10px;
+            font-size: 13px;
+            border-radius: 50px;
+        }
+        .search-container button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0px;
+        }
+        .search-container button img {
+            width: 20px;
+            height: 0px;
+        }
+    </style>
+   
+
+
+
+
+
+
+
+</head>
+<body>
+    <h1 >Person Expecter litle</h1>
+  <div  >menu
+    <ul>
+        <li>
+            configuracao</li><a href="pag.html">conta</a>
+        <li>ajuda</li>
+        <li>servico</li>
+    </ul>
+  </div>
+
+  <div>contatos
+    <ul>
+      <li>37999362408</li>
+      <li>37998727319</li>
+    </ul>
+  </div>
+  <div class="search-container">
+    <input type="text" placeholder="Pesquisar no Google...">
+    <button><img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Buscar"></button>
+</div>
+
+</body>
+</html>
