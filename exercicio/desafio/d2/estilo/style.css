@@ -47,29 +47,42 @@ color: white;
 text-shadow: 3px 2px 5px black;
 }
 
-section.normal{background-color: teal;}
+section.normal{background-color: teal;
+}
 
 section{
-    padding-top:10vh ;
+    padding-top:18vh ;
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 20px;
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
-    
-    
+   
 }
 
-section.img{
+section.img{box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+    background-attachment: fixed;
+}
+
+section.img > p{
     display: inline-block;
     padding: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.164);
 }
 
+section#imagem1{background-image: url("../imagens/nikola.jpeg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
+section#imagem2{background-image: url("../imagens/nikola3.jpg");
+background-position: center top;
+background-repeat: no-repeat;
 
-footer{background-color:  rgba(0, 0, 0, 0.952);
+  }
+footer{background-color:  rgba(0, 0, 0, 0.966);
 color: white;
 text-align: center;}
 
