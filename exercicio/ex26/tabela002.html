@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif ;
+            height: 500vh;
+        }
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+
+}
+ 
+
+
+        td, th{
+            border: 1px solid black;
+            padding: 6px;
+          
+        }
+
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+
+        td.nunber{
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: darkgray;
+        }
+
+        thead1{
+            background-attachment: fixed;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: grey;
+           
+        }
+       
+       
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead class="thead1">
+
+        <th scope="col">estado</th>
+        <th scope="col" style="width: 50px;">população</th>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>São paulo</td>
+            <td class="nunber">45 919 049</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="nunber">17 366 189</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="nunber">21 292 666</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="nunber">14 930 634</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

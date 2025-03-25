@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(236, 195, 255);
+}
+
+.img1{
+   width: 200px;
+   height: 180px;
+background-color: black;
+background-image: url(imagens/Lana\ Del\ Rey.png);
+background-position: center bottom;
+background-repeat: no-repeat;
+}
+
+.button1{
+    display: flex;
+    justify-content: end; /* Centraliza horizontalmente */
+    align-items:  end; /* Centraliza verticalmente */
+    height: 24vh; /* Ocupa toda a altura da tela */
+    width: 189px;
+   
+}
