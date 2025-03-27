@@ -4,33 +4,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sriracha&display=swap');
 
+
+
 *{padding: 0px;
 margin: 0px;
 box-sizing: border-box;}
 
-body{background-color: rgb(58, 56, 56);
 
-}
-  
  
+body{ background-color: gray;
 
+ padding: 0;
+ margin: 0;
+}
 
-.img-homen{
-
-  width: 100%;
-  height: 100%;
-overflow: hidden;
-
+.max-widht{
+  background-image: url(imagens/musculacao1.jpg);
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100vw;
+height:100vh;
+margin: 0 auto;
+background-color: #fff;
+background-attachment: fixed;
 
 }
 
-.img-homen img{
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
- 
 
-}
+
 
 .banner{
   position: absolute;
@@ -43,7 +45,7 @@ overflow: hidden;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", serif;
   font-weight: normal;
-  font-size: 5em;
+  font-size: 4.2em;
   text-shadow: 2px 5px 10px rgb(78, 77, 77);
   text-align: left;
 }
@@ -61,21 +63,24 @@ overflow: hidden;
 }
 
 main{
-  background-color: rgb(83, 81, 81);
-
+  background-color: rgb(107, 106, 106);
+  box-shadow: 11px 8px 30px 11px rgb(182, 178, 178);
 
 }
 
 
 main h1{
-  font-size: 1.9em;
+  font-size: 2.2em;
   text-align: center;
   padding: 20px;
- color: rgb(238, 233, 233);
- font-weight: normal;
- text-shadow: 7px 5px 9px black;
-
+ color: rgb(22, 22, 22);
+ font-weight: bold;
+ text-shadow: 7px 5px 9px rgb(173, 167, 167);
+ 
 }
+
+
+
 
 
 
@@ -87,19 +92,19 @@ main h1{
   margin: -20px;
   padding: 40px;
   width: 100%;
-  background-color: rgb(83, 81, 81);
+
  
   
 }
 
 .card1{
   
- box-shadow: 2px 2px 17px 2px black;
+ box-shadow: 2px 2px 13px 2px black;
   width: 27%;
   height: 300px;
   margin: 20px;
   border-radius: 10px;
-background-image: url(imagens/academia2.png);
+background-image: url(imagens/pexels-bemistermister-3490348.jpg);
 background-size: cover;
 filter: brightness(60%); /* Deixa a imagem mais escura */
 transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
@@ -107,7 +112,7 @@ transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
 
 }
 .card1:hover{
-  filter: brightness(100%); /* Deixa a imagem mais clara */
+  filter: brightness(90%); /* Deixa a imagem mais clara */
  
 }
 
@@ -117,6 +122,7 @@ transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
 color: aliceblue;
 text-shadow:  10px 7px 17px black;
 display: none;
+padding: 20px;
 }
 
 .card1-conteiner h2 {
@@ -133,31 +139,29 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
-
-
-
-
 .card2{
-  box-shadow: 2px 2px 17px 2px black;
+  box-shadow: 2px 2px 13px 2px black;
   width: 28%;
   height: 300px;
   margin: 20px;
   border-radius: 15px;
-  background-image: url(imagens/academia1.png);
+  background-image: url(imagens/pexels-koolshooters-9944901.jpg);
   background-size: cover;
+  background-position:  center;
   filter: brightness(60%); /* Deixa a imagem mais escura */
     transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
     
 }
 
   .card2:hover{
-    filter: brightness(100%); /* Deixa a imagem mais clara */
+    filter: brightness(90%); /* Deixa a imagem mais clara */
    
   }
 
   .card2-conteiner{
     padding: 10px;
     display: none;
+    padding: 20px;
   }
 
   .card2-conteiner h2 {
@@ -180,12 +184,12 @@ font-family: Arial, Helvetica, sans-serif;
 
   .card3{
    
-    box-shadow: 2px 2px 17px 2px black;
+    box-shadow: 2px 2px 13px 2px black;
     width: 27%;
     height: 300px;
     margin: 20px;
     border-radius: 10px;
-    background-image: url(imagens/academia3.png);
+    background-image: url(imagens/pexels-pixabay-221210.jpg);
     background-size: cover;
     filter: brightness(60%); /* Deixa a imagem mais escura */
     transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
@@ -194,7 +198,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
   .card3:hover{
-    filter: brightness(100%); /* Deixa a imagem mais clara */
+    filter: brightness(90%); /* Deixa a imagem mais clara */
 
   }
 
@@ -228,36 +232,33 @@ font-family: Arial, Helvetica, sans-serif;
 
   .cards2{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
+ padding: 30px;
     width: 600px;
     display: none;
-    margin: auto;
    
+    margin:0 ;
+
+  
   }
 
  
 
  .card4{
-    width: 80%;
+  width: 80%;
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
-    filter: brightness(60%); /* Deixa a imagem mais escura */
-    transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
-background-image: url(imagens/academia\ \(1\).png);
+ 
+background-image: url(imagens/pexels-bemistermister-3490348.jpg);
 background-size: cover;
+background-position:  center;
+
 text-shadow: 16px 18px 17px black;
 margin-bottom: 20px;
   }
 
 
-  .card4:hover{
-    filter: brightness(100%); /* Deixa a imagem mais clara */
-  }
+ 
 
   .card4-conteiner{
     color: white;
@@ -280,16 +281,10 @@ font-size: 1.6em;
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
-    filter: brightness(60%); /* Deixa a imagem mais escura */
-    transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
-    background-image: url(imagens/academia\.png);
+    background-image: url(imagens/pexels-koolshooters-9944901.jpg);
     background-size: cover;
-    text-shadow: 16px 18px 17px black;
+    background-position: center;
     margin-bottom: 20px;
-  }
-
-  .card5:hover{
-    filter: brightness(100%); /* Deixa a imagem mais clara */
   }
 
   .card5-conteiner{
@@ -313,21 +308,19 @@ font-size: 1.8em;
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
-    filter: brightness(60%); /* Deixa a imagem mais escura */
-    transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
-    background-image: url(imagens/correr2.jpeg);
+    background-image: url(imagens/pexels-pixabay-221210.jpg);
     background-size: cover;
     background-position: center center;
+    filter: brightness(90%); /* Deixa a imagem mais escura */
   }
 
-  .card6:hover{
-    filter: brightness(100%); /* Deixa a imagem mais clara */
- }
+  
 
  .card6-conteiner{
   color: white;
   text-align: center;
- text-shadow: 18px 17px 15px black;
+ 
+
  }
 
  .card6-conteiner h2{
@@ -339,7 +332,8 @@ font-size: 1.8em;
   .card6-conteiner p{
     font-size: 1.1em;
 text-align: justify;
-padding: 10px;
+padding: 15px;
+text-shadow: 15px 14px 17px black;
   }
 
   
@@ -351,26 +345,6 @@ padding: 10px;
 
 
 
-aside {
-  background-color: rgb(83, 81, 81);
-  padding: 30px;
-  color: white;
-  box-sizing: border-box;
-  box-shadow: inset 0px 2px 10px 0px black;
-
-}
-
-
-aside h1{
-  padding-bottom: 15px;
-  font-size: 1.em;
-  font-family: Arial, Helvetica, sans-serif ;
-  text-shadow:  4px 3px 10px black;
-}
-
-aside p{
-  font-size: 1.1em;
-}
 
 
 
