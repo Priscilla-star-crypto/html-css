@@ -12,18 +12,18 @@ box-sizing: border-box;}
 
 
  
-body{ background-color: gray;
+body{ background-color: rgb(0, 0, 0);
 
  padding: 0;
  margin: 0;
 }
 
 .max-widht{
-  background-image: url(imagens/musculacao1.jpg);
+  background-image: url(imagens/musculacao11.jpg);
   background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-width: 100vw;
+width: 98vw;
 height:100vh;
 margin: 0 auto;
 background-color: #fff;
@@ -63,20 +63,24 @@ background-attachment: fixed;
 }
 
 main{
-  background-color: rgb(107, 106, 106);
-  box-shadow: 11px 8px 30px 11px rgb(182, 178, 178);
+  background-color: rgb(236, 234, 234);
+  box-shadow: 11px 7px 30px 19px rgb(150, 147, 147);
+ 
+  
+  
+ 
 
 }
 
 
 main h1{
-  font-size: 2.2em;
+  font-size: 1.8em;
   text-align: center;
   padding: 20px;
  color: rgb(22, 22, 22);
  font-weight: bold;
  text-shadow: 7px 5px 9px rgb(173, 167, 167);
- 
+ text-decoration: underline;
 }
 
 
@@ -230,21 +234,18 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 
-  .cards2{
+   .cards2{
     display: flex;
- padding: 30px;
-    width: 600px;
+    width: 500px;
     display: none;
-   
-    margin:0 ;
+   margin: 0 auto;
 
-  
   }
 
  
 
  .card4{
-  width: 80%;
+
     height: 240px;
     object-fit: cover;
     border-radius: 10px;
