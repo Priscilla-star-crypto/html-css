@@ -26,7 +26,6 @@ body{
   background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-
 height:100vh;
 max-width: 99vw;
 background-attachment: fixed;
@@ -80,6 +79,7 @@ main h1{
  font-weight: bold;
  text-shadow: 7px 5px 9px rgb(173, 167, 167);
  text-decoration: underline;
+ 
 }
 
 
