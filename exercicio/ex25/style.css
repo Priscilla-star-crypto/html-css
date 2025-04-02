@@ -138,6 +138,19 @@ font-family: Arial, Helvetica, sans-serif;
   display: block;
 }
 
+.button1{
+  border-radius: 5px;
+ width: 30%;
+ background-color: #585454;
+  color: white;
+  margin-top: 1em;
+   
+    cursor: pointer;
+  
+}
+
+
+
 
 
 
@@ -200,7 +213,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
   .card3:hover{
-    filter: brightness(90%); /* Deixa a imagem mais clara */
+    filter: brightness(80%); /* Deixa a imagem mais clara */
 
   }
 
