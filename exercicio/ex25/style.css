@@ -96,6 +96,7 @@ padding: 40px;
 margin: -20;
 
  
+ 
   
 }
 
@@ -110,6 +111,7 @@ background-image: url(imagens/pexels-bemistermister-3490348.jpg);
 background-size: cover;
 filter: brightness(60%); /* Deixa a imagem mais escura */
 transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
+position: relative;
 
 
 }
@@ -125,6 +127,10 @@ color: aliceblue;
 text-shadow:  10px 7px 17px black;
 display: none;
 padding: 20px;
+
+
+   
+
 }
 
 .card1-conteiner h2 {
@@ -136,17 +142,38 @@ font-family: Arial, Helvetica, sans-serif;
 
 .card1:hover .card1-conteiner{
   display: block;
+
+
+  
+}
+/*botoes do card1*/
+
+.botoes-card1{
+  background-color: rgb(73, 71, 71);
+ border: none;
+ border-radius: 6px;
+  color: white;
+ position: absolute;  
+ bottom: 9px; 
+ left: 25px;
+ padding: 8px;
+ font-size: .9em;
+  font-weight: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+display: none;
+ 
 }
 
-.button1{
-  border-radius: 5px;
- width: 30%;
- background-color: #585454;
+button:hover{
+  background-color: rgb(170, 161, 161);
   color: white;
-  margin-top: 1em;
-   
-    cursor: pointer;
-  
+  transition: all .7s;
+}
+
+
+.card1:hover button{
+display: block;
 }
 
 
@@ -194,6 +221,36 @@ font-family: Arial, Helvetica, sans-serif;
     display: block;
   }
 
+  .botoes-card2{
+    background-color: rgb(73, 71, 71);
+   border: none;
+   border-radius: 6px;
+    color: white;
+   position: absolute;  
+   bottom: 9px; 
+   left: 25px;
+   padding: 8px;
+   font-size: .9em;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  display: none;
+   
+  }
+  
+  button:hover{
+    background-color: rgb(170, 161, 161);
+    color: white;
+    transition: all .7s;
+  }
+  
+  
+  .card2:hover button{
+  display: block;
+  }
+
+ 
+
 
 
 
@@ -239,6 +296,35 @@ font-family: Arial, Helvetica, sans-serif;
     
     
   }
+
+  .botoes-card3{
+    background-color: rgb(73, 71, 71);
+   border: none;
+   border-radius: 6px;
+    color: white;
+   position: absolute;  
+   bottom: 9px; 
+   left: 25px;
+   padding: 8px;
+   font-size: .9em;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  display: none;
+   
+  }
+  
+  button:hover{
+    background-color: rgb(170, 161, 161);
+    color: white;
+    transition: all .7s;
+  }
+  
+  
+  .card3:hover button{
+  display: block;
+  }
+  
 
 
 
@@ -352,6 +438,11 @@ text-align: justify;
 padding: 10px;
 text-shadow: 10px 12px 19px black;
 
+  }
+
+  article{
+    background-color: rgb(236, 234, 234);
+    padding: 20px;
   }
 
   
