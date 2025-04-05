@@ -443,6 +443,35 @@ text-shadow: 10px 12px 19px black;
   article{
     background-color: rgb(236, 234, 234);
     padding: 20px;
+  
+
+  }
+
+  article h1{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 20px;
+   color: rgb(22, 22, 22);
+   font-weight: bold;
+   text-shadow: 7px 5px 9px rgb(173, 167, 167);
+   text-decoration: underline;
+  }
+
+  article p{
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 9px;
+ 
+  }
+
+  article img{
+    width: 200px;
+    height: 260px;
+  border-radius: 10px;
+    object-fit: cover;
+    float: left; /* ou right */
+   margin: 30px;
+      
   }
 
   
