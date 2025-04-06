@@ -29,6 +29,26 @@
       background-attachment: scroll;
     }
   }
+
+  @media  (max-width: 600px){
+    article img{
+      width: 80%;
+    }
+    }
+    @media (max-width: 400px){
+      main{
+        height: 70vh;
+       
+      }
+      }
+
+      @media (min-width: 800px){
+        main{
+          height: 70vh;
+        }
+      }
+    
+  
   
   
   

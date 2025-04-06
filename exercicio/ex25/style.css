@@ -68,7 +68,11 @@ background-attachment: fixed;
 
 main{
   background-color: rgb(236, 234, 234);
- 
+  height: 120vh;
+
+
+
+
 }
 
 
@@ -220,7 +224,7 @@ display: block;
   .card2:hover .card2-conteiner{
     display: block;
   }
-
+/*botoes do card2*/
   .botoes-card2{
     background-color: rgb(73, 71, 71);
    border: none;
@@ -296,7 +300,7 @@ font-family: Arial, Helvetica, sans-serif;
     
     
   }
-
+/*botoes do card3*/
   .botoes-card3{
     background-color: rgb(73, 71, 71);
    border: none;
@@ -337,6 +341,7 @@ font-family: Arial, Helvetica, sans-serif;
     display: none;
 margin: auto;
 
+
   }
 
  
@@ -376,12 +381,21 @@ font-size: 1.6em;
     padding: 20px;
   }
 
+  /*botões do card4*/
+
+  
+  
+  
+  
+  
+  
+  
+
   .card5{
     width: 80%;
     height: 240px;
     object-fit: cover;
     margin: auto;
-
     border-radius: 10px;
     background-image: url(imagens/pexels-koolshooters-9944901.jpg);
     background-size: cover;
@@ -405,6 +419,28 @@ font-size: 1.6em;
     font-size: 1em;
   }
 
+  /*botões do card5*/
+  .botoes-card5{
+    background-color: rgb(73, 71, 71);
+   border: none;
+   border-radius: 6px;
+   color: white;
+   position: absolute;
+   left: 220px;
+   top: 173%;
+   padding: 8px;
+   cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+ 
+   
+  }
+  
+  button:hover{
+    background-color: rgb(170, 161, 161);
+    color: white;
+    transition: all .7s;
+  }
+
   .card6{
     width: 80%;
     height: 240px;
@@ -415,6 +451,7 @@ font-size: 1.6em;
     background-size: cover;
     background-position: center center;
     filter: brightness(80%); /* Deixa a imagem mais escura */
+    margin-bottom: 30px;
   }
 
   
@@ -440,10 +477,34 @@ text-shadow: 10px 12px 19px black;
 
   }
 
-  article{
-    background-color: rgb(236, 234, 234);
-    padding: 20px;
+  /*botões do card6*/
+  .botoes-card6{
+    background-color: rgb(73, 71, 71);
+   border: none;
+   border-radius: 6px;
+   color: white;
+   position: absolute;
+   left: 19px;
+   top: 83%;
+   padding: 8px;
+   cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+ 
+   
+  }
   
+  button:hover{
+    background-color: rgb(170, 161, 161);
+    color: white;
+    transition: all .7s;
+  }
+
+  /*sobre nos*/
+
+  article{
+    background-color: rgb(160, 159, 159);
+    padding: 20px;
+ height: 40vh;
 
   }
 
