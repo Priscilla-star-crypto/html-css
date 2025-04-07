@@ -340,7 +340,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 380px;
     display: none;
 margin: auto;
-
+position: relative;
 
   }
 
@@ -350,7 +350,7 @@ margin: auto;
 
     height: 240px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 7px;
     margin: auto;
  
 background-image: url(imagens/pexels-bemistermister-3490348.jpg);
@@ -382,7 +382,26 @@ font-size: 1.6em;
   }
 
   /*botões do card4*/
-
+  .botoes-card4{
+    background-color: rgb(73, 71, 71);
+   border: none;
+   border-radius: 4px;
+   color: white;
+   position: absolute;
+   left: 56px;
+   top: 26%;
+   padding: 8px;
+   cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+ 
+   
+  }
+  
+  button:hover{
+    background-color: rgb(170, 161, 161);
+    color: white;
+    transition: all .7s;
+  }
   
   
   
@@ -396,7 +415,7 @@ font-size: 1.6em;
     height: 240px;
     object-fit: cover;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 7px;
     background-image: url(imagens/pexels-koolshooters-9944901.jpg);
     background-size: cover;
     background-position: center;
@@ -420,14 +439,15 @@ font-size: 1.6em;
   }
 
   /*botões do card5*/
+
   .botoes-card5{
     background-color: rgb(73, 71, 71);
    border: none;
-   border-radius: 6px;
+   border-radius: 4px;
    color: white;
    position: absolute;
-   left: 220px;
-   top: 173%;
+   left: 56px;
+   top: 60%;
    padding: 8px;
    cursor: pointer;
     transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
@@ -440,13 +460,14 @@ font-size: 1.6em;
     color: white;
     transition: all .7s;
   }
+ 
 
   .card6{
     width: 80%;
     height: 240px;
     object-fit: cover;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 7px;
     background-image: url(imagens/pexels-pixabay-221210.jpg);
     background-size: cover;
     background-position: center center;
@@ -481,7 +502,7 @@ text-shadow: 10px 12px 19px black;
   .botoes-card6{
     background-color: rgb(73, 71, 71);
    border: none;
-   border-radius: 6px;
+   border-radius: 4px;
    color: white;
    position: absolute;
    left: 19px;
