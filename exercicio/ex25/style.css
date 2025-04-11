@@ -68,7 +68,8 @@ background-attachment: fixed;
 
 main{
   background-color: rgb(236, 234, 234);
-  height: 120vh;
+  height: 850px;
+
 
 
 
@@ -111,7 +112,7 @@ margin: -20;
   height: 300px;
   margin: 20px;
   border-radius: 10px;
-background-image: url(imagens/pexels-bemistermister-3490348.jpg);
+background-image: url(imagens/peso.jpg);
 background-size: cover;
 filter: brightness(60%); /* Deixa a imagem mais escura */
 transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
@@ -191,7 +192,7 @@ display: block;
   height: 300px;
   margin: 20px;
   border-radius: 15px;
-  background-image: url(imagens/pexels-koolshooters-9944901.jpg);
+  background-image: url(imagens/homensubinocorda.jpg);
   background-size: cover;
   background-position:  center;
   filter: brightness(60%); /* Deixa a imagem mais escura */
@@ -265,7 +266,7 @@ display: block;
     height: 300px;
     margin: 20px;
     border-radius: 10px;
-    background-image: url(imagens/pexels-pixabay-221210.jpg);
+    background-image: url(imagens/correr2.jpeg);
     background-size: cover;
     filter: brightness(60%); /* Deixa a imagem mais escura */
     transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
@@ -336,60 +337,73 @@ font-family: Arial, Helvetica, sans-serif;
 
 
    .cards2{
+   
     display: flex;
-    width: 380px;
-    display: none;
-margin: auto;
-position: relative;
-
+    flex-direction: column;
+    gap: 16px; /* Espaço entre os cards */
+    width: 360px; /* Largura total */
+  margin: auto;
+  display: none;
   }
 
- 
+  
 
  .card4{
 
     height: 240px;
-    object-fit: cover;
-    border-radius: 7px;
-    margin: auto;
+ margin-left:35px ;
+   border-radius: 7px;
  
-background-image: url(imagens/pexels-bemistermister-3490348.jpg);
+background-image: url(imagens/peso.jpg);
 background-size: cover;
 background-position:  center;
 
 text-shadow: 16px 18px 17px black;
 margin-bottom: 20px;
-  }
+box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
+ }
 
 
- 
+  
+
+
 
   .card4-conteiner{
     color: white;
-    
+padding: 10px;
+    color: white; /* Cor do texto */
+    font-size: 1em; /* Tamanho da fonte */
+ 
+   
+  
   }
   .card4-conteiner h2{
 text-align: left;
-padding: 10px;
 
-font-size: 1.6em;
+
+
   }
 
   .card4-conteiner p {
     font-size: 1em;
     text-align: justify;
     padding: 20px;
+  
+    
+  
   }
+
+  
 
   /*botões do card4*/
   .botoes-card4{
     background-color: rgb(73, 71, 71);
-   border: none;
+    border: none;
    border-radius: 4px;
    color: white;
-   position: absolute;
-   left: 56px;
-   top: 26%;
+   position: relative;
+   left: 17px;
+   top: -19%;
    padding: 8px;
    cursor: pointer;
     transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
@@ -403,24 +417,25 @@ font-size: 1.6em;
     transition: all .7s;
   }
   
-  
+  .card5{
+    width: 80%;
+    height: 240px;
+    margin-left:35px ;
+    border-radius: 7px;
+    background-image: url(imagens/homensubinocorda.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
+  }
+
   
   
   
   
   
 
-  .card5{
-    width: 80%;
-    height: 240px;
-    object-fit: cover;
-    margin: auto;
-    border-radius: 7px;
-    background-image: url(imagens/pexels-koolshooters-9944901.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 20px;
-  }
+  
 
   .card5-conteiner{
     color: white;
@@ -445,9 +460,9 @@ font-size: 1.6em;
    border: none;
    border-radius: 4px;
    color: white;
-   position: absolute;
-   left: 56px;
-   top: 60%;
+   position: relative;
+   left: 19px;
+   top: -15%;
    padding: 8px;
    cursor: pointer;
     transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
@@ -461,19 +476,20 @@ font-size: 1.6em;
     transition: all .7s;
   }
  
-
   .card6{
     width: 80%;
     height: 240px;
-    object-fit: cover;
-    margin: auto;
+    margin-left:35px ;
     border-radius: 7px;
-    background-image: url(imagens/pexels-pixabay-221210.jpg);
+    background-image: url(imagens/correr2.jpeg);
     background-size: cover;
     background-position: center center;
     filter: brightness(80%); /* Deixa a imagem mais escura */
-    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
+    position: relative;
   }
+
+ 
 
   
 
@@ -504,9 +520,9 @@ text-shadow: 10px 12px 19px black;
    border: none;
    border-radius: 4px;
    color: white;
-   position: absolute;
+   position: relative;
    left: 19px;
-   top: 83%;
+   top: 18%;
    padding: 8px;
    cursor: pointer;
     transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
@@ -524,8 +540,8 @@ text-shadow: 10px 12px 19px black;
 
   article{
     background-color: rgb(160, 159, 159);
-    padding: 20px;
- height: 40vh;
+    height: 350px;
+ min-width: 300px;
 
   }
 
@@ -555,6 +571,10 @@ text-shadow: 10px 12px 19px black;
    margin: 30px;
       
   }
+
+
+  
+  
 
   
 

@@ -33,18 +33,23 @@
   @media  (max-width: 600px){
     article img{
       width: 80%;
+
+    }
+    article{
+      height: 100vh;
     }
     }
-    @media (max-width: 400px){
+    @media (max-width: 100px){
       main{
         height: 70vh;
-       
+      
       }
       }
 
       @media (min-width: 800px){
         main{
           height: 70vh;
+         
         }
       }
     
