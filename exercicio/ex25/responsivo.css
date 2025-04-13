@@ -32,16 +32,22 @@
 
   @media  (max-width: 600px){
     article img{
-      width: 80%;
+      width: 90%;
+    
+     
 
     }
     article{
-      height: 100vh;
+      height: 110vh;
+    }
+
+    article p{
+      padding:3rem ;
     }
     }
     @media (max-width: 100px){
       main{
-        height: 70vh;
+        height: 70px;
       
       }
       }
