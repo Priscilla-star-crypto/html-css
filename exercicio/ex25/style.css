@@ -425,7 +425,7 @@ text-align: left;
     background-image: url(imagens/homensubinocorda.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 20px;
+   margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
   }
 
@@ -439,17 +439,21 @@ text-align: left;
 
   .card5-conteiner{
     color: white;
+    padding: 20px;
+    text-align: right;
+
   }
 
   .card5-conteiner h2{
 text-align: left;
-padding: 10px;
+margin-bottom: 10px;
 font-size: 1.6em;
   }
 
   .card5-conteiner p{
     text-align: justify;
-    padding: 20px;
+    padding: 6px;
+text-shadow: 10px 12px 19px black;
     font-size: 1em;
   }
 
@@ -460,22 +464,21 @@ font-size: 1.6em;
    border: none;
    border-radius: 4px;
    color: white;
-   position: relative;
-   left: 19px;
-   top: -15%;
    padding: 8px;
    cursor: pointer;
-    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
- 
-   
+    transition: background-color 0.2s ease; /* Transição suave ao passar o mouse */
+  
   }
   
   button:hover{
     background-color: rgb(170, 161, 161);
     color: white;
-    transition: all .7s;
+   
   }
  
+
+
+
   .card6{
     width: 80%;
     height: 240px;
@@ -486,7 +489,7 @@ font-size: 1.6em;
     background-position: center center;
     filter: brightness(80%); /* Deixa a imagem mais escura */
     box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
-    position: relative;
+    
   }
 
  
@@ -495,7 +498,9 @@ font-size: 1.6em;
 
  .card6-conteiner{
   color: white;
-  text-align: center;
+  text-align: right;
+  padding: 20px;
+
  
 
  }
@@ -509,40 +514,37 @@ font-size: 1.6em;
   .card6-conteiner p{
     font-size: 1em;
 text-align: justify;
-padding: 10px;
+padding: 9px;
 text-shadow: 10px 12px 19px black;
 
   }
 
   /*botões do card6*/
   .botoes-card6{
-    background-color: rgb(73, 71, 71);
+    background-color: rgb(54, 53, 53);
    border: none;
    border-radius: 4px;
    color: white;
-   position: relative;
-   left: 19px;
-   top: 18%;
    padding: 8px;
    cursor: pointer;
-    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
-    position: sticky;      top: 0;
-   
+    transition: background-color 0.2s ease; /* Transição suave ao passar o mouse */
+ 
+ 
   }
   
   button:hover{
     background-color: rgb(170, 161, 161);
     color: white;
-    transition: all .7s;
+   
   }
 
   /*sobre nos*/
 
   article{
     background-color: rgb(160, 159, 159);
-    height: 60vh;
+    height: 50vh;
  min-width: 300px;
-
+padding: 3rem;
   }
 
   article h1{
@@ -562,7 +564,7 @@ text-shadow: 10px 12px 19px black;
  
   }
 
-  article img{
+article img{
     width: 200px;
     height: 260px;
   border-radius: 10px;
