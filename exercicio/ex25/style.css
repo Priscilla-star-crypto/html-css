@@ -370,10 +370,10 @@ box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
 
   .card4-conteiner{
     color: white;
-padding: 10px;
-    color: white; /* Cor do texto */
     font-size: 1em; /* Tamanho da fonte */
- 
+    padding: 9px;
+    text-align: right;
+margin-right: 8px;
    
   
   }
@@ -397,16 +397,13 @@ text-align: left;
 
   /*botões do card4*/
   .botoes-card4{
-    background-color: rgb(73, 71, 71);
+    background-color: rgb(58, 57, 57);
     border: none;
    border-radius: 4px;
    color: white;
-   position: relative;
-   left: 17px;
-   top: -19%;
    padding: 8px;
    cursor: pointer;
-    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    transition: background-color 0.2s ease; /* Transição suave ao passar o mouse */
  
    
   }
@@ -414,7 +411,7 @@ text-align: left;
   button:hover{
     background-color: rgb(170, 161, 161);
     color: white;
-    transition: all .7s;
+    
   }
   
   .card5{
@@ -439,7 +436,7 @@ text-align: left;
 
   .card5-conteiner{
     color: white;
-    padding: 20px;
+    padding: 18px;
     text-align: right;
 
   }
@@ -460,7 +457,7 @@ text-shadow: 10px 12px 19px black;
   /*botões do card5*/
 
   .botoes-card5{
-    background-color: rgb(73, 71, 71);
+    background-color: rgb(43, 42, 42);
    border: none;
    border-radius: 4px;
    color: white;
