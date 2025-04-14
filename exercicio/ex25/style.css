@@ -49,14 +49,14 @@ background-attachment: fixed;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", serif;
   font-weight: normal;
-  font-size: 4.2em;
-  text-shadow: 2px 5px 10px rgb(78, 77, 77);
-  text-align: left;
+font-size: 11vw;
+
 }
 
 .banner p{
   color: white;
   font-size: 1.2em;
+  text-align: justify;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -99,7 +99,7 @@ main h1{
   align-items: center;
 padding: 40px;
 margin: -20;
-
+gap: 20px;
  
  
   
@@ -108,15 +108,15 @@ margin: -20;
 .card1{
   
  box-shadow: 2px 2px 13px 2px black;
-  width: 27%;
+  width: 220px;
   height: 300px;
-  margin: 20px;
+  margin: 30px;
   border-radius: 10px;
 background-image: url(imagens/peso.jpg);
 background-size: cover;
 filter: brightness(60%); /* Deixa a imagem mais escura */
 transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
-position: relative;
+
 
 
 }
@@ -188,7 +188,7 @@ display: block;
 
 .card2{
   box-shadow: 2px 2px 13px 2px black;
-  width: 28%;
+  width: 220px;
   height: 300px;
   margin: 20px;
   border-radius: 15px;
@@ -262,9 +262,10 @@ display: block;
   .card3{
    
     box-shadow: 2px 2px 13px 2px black;
-    width: 27%;
+    width: 220px;
     height: 300px;
     margin: 20px;
+    
     border-radius: 10px;
     background-image: url(imagens/correr2.jpeg);
     background-size: cover;
