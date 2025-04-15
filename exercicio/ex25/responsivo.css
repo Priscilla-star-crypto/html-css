@@ -1,7 +1,12 @@
-@media (max-width: 600px){
-   
-  
+@media (max-width: 650px) {
+  .banner h1{
+    font-size: 5em;
+   width: 300px;
   }
+  .banner p{
+  font-size: 1.2em;
+}
+}
   
  
  @media (max-width: 800px){
