@@ -374,9 +374,10 @@ box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 40px;
   .card4-conteiner{
     color: white;
     font-size: 1em; /* Tamanho da fonte */
-    padding: 9px;
+    padding: 6px;
+    padding-right: 17px;
     text-align: right;
-margin-right: 8px;
+
    
   
   }
