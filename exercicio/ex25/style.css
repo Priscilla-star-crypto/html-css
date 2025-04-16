@@ -546,13 +546,14 @@ text-shadow: 10px 12px 19px black;
     height: 50vh;
  min-width: 300px;
 padding: 3rem;
-
+margin: auto;
   }
 
   article h1{
     font-size: 1.8em;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    margin-bottom:2rem ;
    color: rgb(22, 22, 22);
    font-weight: bold;
    text-shadow: 7px 5px 9px rgb(173, 167, 167);
@@ -562,7 +563,10 @@ padding: 3rem;
   article p{
     font-size: 1.1em;
     text-align: justify;
-    padding: 20px;
+    padding: 12px;
+   margin: auto;
+   
+width: 700px;
 
  background-color: rgba(146, 145, 145, 0.274);
  border-radius: 10px;
@@ -583,12 +587,20 @@ article img{
    position: relative;
    bottom: 70px;
 
+   transform: scale(1); /* Escala original */
+   transition: transform 0.5s ease; /* Transição suave */
+
   }
+
+
+/*hover*/
 
   article img:hover{
     transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
-    transition: transform 0.4s ease; /* Transição suave */
+  
   }
+
+
 article p:hover{
     border-color: #201d1d91; /* Altera a cor da borda ao passar o mouse */
     transition: border-color 0.4s ease; /* Transição suave */
@@ -599,6 +611,13 @@ article p:hover{
    
   }
 
+  article p:hover img{
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+    transition: transform 0.4s ease; /* Transição suave */
+
+    
+
+  }
  
 
   

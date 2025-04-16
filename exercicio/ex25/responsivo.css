@@ -39,20 +39,31 @@
 
   @media  (max-width: 600px){
     article img{
-      width: 90%;
-    
+     height: 34vh;
+      width: 80%;
+  position: relative;
+ bottom: 20px;
+ left: 20px;
      
 
     }
+  
     article{
       height: 100vh;
       
     }
 
-   
 
-    
     }
+
+    @media (max-width: 810px){
+     article p{
+      width: 100%;
+     
+     }
+     
+    }
+
     @media (max-width: 100px){
       main{
         height: 70px;
