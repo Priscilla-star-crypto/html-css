@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sriracha&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 
 *{
 margin: 0px;
@@ -272,14 +275,13 @@ display: block;
     background-image: url(imagens/correr2.jpeg);
     background-size: cover;
     filter: brightness(60%); /* Deixa a imagem mais escura */
-    transition: filter 0.3s ease; /* Transição suave ao passar o mouse */
+    transition: filter 0.5s ease; /* Transição suave ao passar o mouse */
  
 
   }
 
   .card3:hover{
     filter: brightness(80%); /* Deixa a imagem mais clara */
-
   }
 
 
@@ -301,7 +303,7 @@ font-family: Arial, Helvetica, sans-serif;
 
   .card3:hover .card3-conteiner{
     display: block;
-    
+  
     
   }
 /*botoes do card3*/
@@ -550,7 +552,7 @@ margin: auto;
   }
 
   article h1{
-    font-size: 1.8em;
+    font-size: 1.9em;
     text-align: center;
     padding: 30px;
     margin-bottom:2rem ;
@@ -579,7 +581,7 @@ article img{
   border-radius: 10px;
     object-fit: cover;
     float: left; /* ou right */
-   margin: 20px;
+   margin: 25px ; /* Espaçamento entre a imagem e o texto */
    box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);
    -webkit-box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);
    -moz-box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);  
@@ -618,10 +620,218 @@ article p:hover{
     
 
   }
- 
+  
+
+  /*plano de treino*/
+section{
+  height: 200vh;
+  background-color: gray;
+}
+
+  section h1{
+    font-size: 2em;
+    text-align: center;
+   background-color: gray;
+   padding: 18px;
+  
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+   font-family: "Lato", sans-serif;
+  }
+  
+  .planos{
+  
+    background-color:gray;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+  }
 
   
 
+  .card-plano1{
+   
+    border: 2px solid white;
+    width: 230px;
+    height: 340px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(24, 23, 23);
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), 
+    rgb(99, 98, 98) );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;  
+  }
+
+  .card-plano1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    transition: transform 0.5s ease; /* Transição suave */
+  }
+  
+  .plano1{
+    padding: 10px;
+
+   }
+
+   .plano1 h2{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Lato", sans-serif;
+    
+   
+   }
+
+   .dolar{
+    color: white;
+    font-size: 5em;
+    margin-left: 20px;
+    font-weight: 500;
+
+   }
+
+   .mes{
+    color: white;
+    font-size: 1.4em;
+    margin-left: 100px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+   }
+
+   .listas{
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 300;
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+   }
+
+   .botao{
+    text-align: center;
+padding: 13px;
+   }
+
+   .botao1{
+   background-color: rgb(122, 122, 122);
+   width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+   
+   }
+
+   .assinatura1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+   }
+
+
+
+
+      .card-plano2{
+     
+       border: white 2px solid;
+        width: 230px;
+        height: 340px;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgb(24, 23, 23);
+        background-image: linear-gradient(to bottom,
+        rgb(104, 104, 104), black
+       
+         );
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: transform 0.3s ease-in-out; 
+
+      }
+    
+      .card-plano2:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+        transition: transform 0.5s ease; /* Transição suave */
+      }
+      
+      .plano2{
+        padding: 10px;
+    
+       }
+    
+       .plano2 h2{
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: "Lato", sans-serif;
+        
+       
+       }
+    
+       .dolar2{
+        color: white;
+        font-size: 5em;
+        margin-left: 20px;
+        font-weight: 500;
+    
+       }
+
+       .centavo{
+        color: white;
+        font-size: 1.4em;
+        margin-left: 135px;
+       position: relative;
+       bottom: 35px;
+        font-weight: 500;
+       }
+    
+       .mes2{
+        color: white;
+        font-size: 1.4em;
+        position: relative;
+        bottom: 20px;
+        margin-left: 120px;
+        font-weight: 500;
+        font-family: "Lato", sans-serif;
+       }
+    
+       .listas2{
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        font-weight: 300;
+        margin: 8px;
+        font-family: "Lato", sans-serif;
+        position: relative;
+        bottom: 26px;
+        left: 5px;
+       }
+    
+       .botao2{
+      text-align: center;
+    padding: 13px;
+       }
+    
+       .botaoa{
+       background-color: rgb(122, 122, 122);
+       width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+       position: relative;
+       bottom: 36px;
+       }
+    
+       .assinatura2{
+        text-decoration: none;
+        color: white;
+        font-size: 1.4em;
+       }
+
+
+   
+
+   
 
   
   

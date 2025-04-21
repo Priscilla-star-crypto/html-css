@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form{
+            border: solid 2px rgb(213, 235, 253);
+            width: 190px;
+            height: 200px;
+            padding: 10px;
+            margin: auto;
+          border-radius: 8px;
+          background-color: rgb(179, 224, 241);
+        }
+
+        .nome{
+            color: white;
+        padding-bottom: 10px;
+       
+        }
+
+        .name1{
+            border-color: ;
+        }
+    </style>
 </head>
 <body>
     <h1>meu primeiro formulario</h1>
+    <form action="cadastro.php">
+        <p class="nome">
+            <label class="name1" for="iname">Nome:</label> <input type="text" name="name" id="iname">
+        </p>
+
+        <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
 </body>
 </html>
