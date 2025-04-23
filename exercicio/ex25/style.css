@@ -546,9 +546,9 @@ text-shadow: 10px 12px 19px black;
   article{
     background-color: rgb(160, 159, 159);
     height: 50vh;
- min-width: 300px;
+min-width:300px;
 padding: 3rem;
-margin: auto;
+
   }
 
   article h1{
@@ -565,7 +565,7 @@ margin: auto;
   article p{
     font-size: 1.1em;
     text-align: justify;
-    padding: 12px;
+    padding: 20px;
    margin: auto;
    
 width: 700px;
@@ -576,12 +576,12 @@ width: 700px;
   }
 
 article img{
-    width: 200px;
-    height: 260px;
+  width: 200px;
+  height: 260px;
   border-radius: 10px;
     object-fit: cover;
     float: left; /* ou right */
-   margin: 25px ; /* Espaçamento entre a imagem e o texto */
+   margin: 36px ; /* Espaçamento entre a imagem e o texto */
    box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);
    -webkit-box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);
    -moz-box-shadow: 23px 15px 35px -4px rgba(0,0,0,0.59);  

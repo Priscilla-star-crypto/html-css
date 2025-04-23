@@ -43,21 +43,21 @@
     }
   }
 
-  @media  (max-width: 600px){
+  @media  (max-width: 810px){
     article img{
-     height: 34vh;
-      width: 80%;
+      width: 250px;
+      height: 240px;
+      
   position: relative;
  bottom: 20px;
- left: 20px;
 box-shadow: none;
 
 }
   
 }   
  article{
-      height: 80vh;
-      
+      height: 670px;
+   
     }
 
 
@@ -65,8 +65,8 @@ box-shadow: none;
 
     @media (max-width: 810px){
      article p{
-      width: 100%;
-     
+      width: 90%;
+    
      }
      
     }
