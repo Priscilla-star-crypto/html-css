@@ -43,6 +43,7 @@ background-color: #000000 ;
     overflow-x: hidden; 
 }
 
+/*menu*/
 
   header{
     background:#000000;
@@ -81,32 +82,42 @@ background-color: #000000 ;
  }
 
 
+/*pagina inicial*/
 
-
-main{
+.home-conteiner{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #201d1d 100%),
  url(imagens/risen-wang-20jX9b35r_M-unsplash.jpg);
 
   background-size: cover;
 background-repeat: no-repeat;
 background-position: right  center;
-height:700px;
+height:740px;
 width: 100%;
 background-attachment: fixed;
 backdrop-filter: blur(5px);
+overflow: hidden;
+}
+
+.home-conteiner section{
+  display: flex;
+  align-items: center;
+  min-height: 96vh;
+  
 }
 
 .content-home {
 max-width: 60rem;
+
 }
 
-.content-home h1{
+.content-home h3{
     
     font-family: var(--font-family-7);
 color: rgb(255, 255, 255);
     margin-top: 1rem;
+    margin-left: 3rem;
     padding: 1rem 2rem;
-    font-size: 4rem;  
+    font-size: 5rem;  
     
 }
 
@@ -114,8 +125,38 @@ color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 100;
-    line-height: 1.8rem;
-    margin-top: 1rem;
+    line-height: 1.6rem;
     padding: 1rem 2rem;
+    margin-left: 3rem;
 }
 
+
+
+.btn1{
+  color: var(--color-quaternary);
+  background-color: var(--color-secondary);
+  border: none;
+  margin-top: 1rem;
+  padding: 12px 3rem;
+  cursor: pointer;
+  display: flex;
+ margin-left: 1rem;
+ 
+ transition: all 1s;
+}
+
+.matricula{
+  color: var(--color-quaternary);
+ text-decoration: none;
+ cursor: pointer;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+font-size: 1.1em;
+
+}
+
+.btn1:hover{
+  background-color: var(--color-senary);
+  text-decoration: underline;
+  transition: 1s;
+}
