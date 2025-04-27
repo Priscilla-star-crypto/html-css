@@ -9,6 +9,9 @@
     .content{
         margin: auto;
     }
+    .home-conteiner{
+        background-attachment: scroll;
+    }
 }
 
       
