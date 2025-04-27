@@ -1,4 +1,15 @@
-
+@media (max-width: 500px) {
+    .content-home h3{
+        margin: auto;
+    }
+    .content-home p{
+       
+        margin: auto;
+    }
+    .content{
+        margin: auto;
+    }
+}
 
       
 
