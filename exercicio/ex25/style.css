@@ -43,6 +43,11 @@ background-color: #000000 ;
     overflow-x: hidden; 
 }
 
+::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+}
+
 /*menu*/
 
   header{
@@ -91,7 +96,7 @@ background-color: #000000 ;
   background-size: cover;
 background-repeat: no-repeat;
 background-position: right  center;
-height:740px;
+height:130vh;
 width: 100%;
 background-attachment: fixed;
 backdrop-filter: blur(5px);
@@ -128,6 +133,7 @@ color: rgb(255, 255, 255);
     line-height: 1.6rem;
     padding: 1rem 2rem;
     margin-left: 3rem;
+    min-width: 100%;
 }
 
 
@@ -141,7 +147,7 @@ color: rgb(255, 255, 255);
   cursor: pointer;
   display: flex;
  margin-left: 1rem;
- 
+
  transition: all 1s;
 }
 
