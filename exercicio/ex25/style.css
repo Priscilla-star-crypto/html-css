@@ -130,7 +130,7 @@ color: rgb(255, 255, 255);
     margin-left: 3rem;
     padding: 1rem 2rem;
     font-size: 5rem;  
-    
+    text-shadow: #000000 2px 1px;
 }
 
 .content-home p{
@@ -141,6 +141,7 @@ color: rgb(255, 255, 255);
     padding: 1rem 2rem;
     margin-left: 3rem;
     min-width: 100%;
+    text-shadow: #000000 2px 1px;
 }
 
 
