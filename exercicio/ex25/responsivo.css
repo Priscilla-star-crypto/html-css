@@ -1,24 +1,19 @@
-@media (max-width: 500px) {
-    .content-home h3{
-        margin: auto;
-    }
-    .content-home p{
-       
-        margin: auto;
-    }
-    .content{
-        margin: auto;
-    }
-    .home-conteiner{
-        background-attachment: scroll;
+@media( max-width: 600px){
+    .sobre-conteiner{
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+      margin-top: 4rem;
     }
 }
-
-      
-
+  
+@media( max-width: 400px){
+    .sobre-conteiner img{
+     width: 200px;
+     
+    }
     
-  
-  
+}
   
   
   
