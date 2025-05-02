@@ -16,16 +16,39 @@
         display: flex;
         flex-direction: column;
       justify-content: center;
-      margin-top: 4rem;
+      margin-top: 0rem;
+      height: 130vh;
     }
+}
+@media( min-width: 600px){
+  .conteiner2{
+    height: 90vh;
+  }
 }
   
 @media( max-width: 400px){
     .sobre-conteiner img{
-     width: 200px;
+     width: 70vw;
 
     }
     
+}
+
+@media( max-width: 740px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250vh;   
+        width: 100%;
+
+    }
+    .card{
+        width: 50%;
+        height: 80vh;
+
+    }
 }
   
   
