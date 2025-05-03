@@ -140,7 +140,7 @@ color: rgb(255, 255, 255);
     padding: 1rem 2rem;
     margin-left: 3rem;
     min-width: 100%;
-    text-shadow: #000000 2px 1px;
+   
 }
 
 
@@ -245,10 +245,11 @@ padding: 1rem;
   margin-top: 5rem;
   color: #ffffff;
   font-family: var(--font-family-2);
- font-size: 2em;
+ font-size: 2.3em;
   background: linear-gradient(to right, #2e2e2e, #bebdbd);
  -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+
 }
 
 .card-container{
@@ -339,6 +340,217 @@ margin-top: 5rem;
   background-color:gray;
   transition:  0.5s;
 }
+
+
+
+ /*plano de treino*/
+ .container4{
+  height: 100vh;
+  background-color: rgba(77, 76, 76, 0.274);
+}
+
+.container4 h1{
+    font-size: 2.7em;
+    text-align: center;
+    background: linear-gradient(to right, #2e2e2e, #bebdbd);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding: 18px;
+ 
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+   font-family: "Lato", sans-serif;
+  }
+  
+  .planos{
+  padding-top:4rem ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+  }
+
+  
+
+  .card-plano1{
+   
+    border: 2px solid white;
+    width: 230px;
+    height: 450px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(24, 23, 23);
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), 
+    rgb(99, 98, 98) );
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;  
+    overflow: hidden;
+  }
+
+  .card-plano1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    transition: transform 0.5s ease; /* Transição suave */
+  }
+  
+  .plano1{
+    padding: 10px;
+
+   }
+
+   .plano1 h2{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Lato", sans-serif;
+    
+   
+   }
+
+   .dolar{
+    color: white;
+    font-size: 5em;
+    margin-left: 20px;
+    font-weight: 500;
+
+   }
+
+   .mes{
+    color: white;
+    font-size: 1.4em;
+    margin-left: 100px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+   }
+
+   .listas{
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 300;
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+   }
+
+   .botao{
+    text-align: center;
+padding: 13px;
+   }
+
+   .botao1{
+   background-color: rgb(122, 122, 122);
+   width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+   
+   }
+
+   .assinatura1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+   }
+
+
+
+
+      .card-plano2{
+     
+       border: white 2px solid;
+        width: 230px;
+        height: 450px;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgb(24, 23, 23);
+        background-image: linear-gradient(to bottom,
+        rgb(104, 104, 104), black
+       
+         );
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: transform 0.3s ease-in-out; 
+overflow: hidden;
+      }
+    
+      .card-plano2:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+        transition: transform 0.5s ease; /* Transição suave */
+      }
+      
+      .plano2{
+        padding: 10px;
+    
+       }
+    
+       .plano2 h2{
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: "Lato", sans-serif;
+        
+       
+       }
+    
+       .dolar2{
+        color: white;
+        font-size: 5em;
+        margin-left: 20px;
+        font-weight: 500;
+    
+       }
+
+       .centavo{
+        color: white;
+        font-size: 1.4em;
+        margin-left: 135px;
+       position: relative;
+       bottom: 35px;
+        font-weight: 500;
+       }
+    
+       .mes2{
+        color: white;
+        font-size: 1.4em;
+        position: relative;
+        bottom: 20px;
+        margin-left: 120px;
+        font-weight: 500;
+        font-family: "Lato", sans-serif;
+       }
+    
+       .listas2{
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        font-weight: 300;
+        margin: 8px;
+        font-family: "Lato", sans-serif;
+        position: relative;
+        bottom: 26px;
+        left: 5px;
+       }
+    
+       .botao2{
+      text-align: center;
+    padding: 13px;
+       }
+    
+       .botaoa{
+       background-color: rgb(122, 122, 122);
+       width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+       position: relative;
+       bottom: 3px;
+       }
+    
+       .assinatura2{
+        text-decoration: none;
+        color: white;
+        font-size: 1.4em;
+       }
+
 
 
 
