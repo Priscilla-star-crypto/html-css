@@ -17,7 +17,7 @@
         flex-direction: column;
       justify-content: center;
       margin-top: 0rem;
-      height: 130vh;
+      height: 100vh;
     }
 }
 @media( min-width: 600px){
@@ -31,24 +31,61 @@
      width: 70vw;
 
     }
-    
 }
 
 @media( max-width: 740px){
     .card-container{
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 240vh;
-    
+        height: 160vh;
+     }
 
+     .card{
+        width: 270px;
+        height: 37vh;
+        display: flex;
+        flex-direction: column;
+       
+     }
+
+    .texto p{
+        width: 200px;
+
+       
     }
-    .card{
-        width: 67%;
-        height: 40vh;
-        overflow: hidden;
+
+    .card:hover{
+       
+        transition: all 0s;
+        transform: scale(1);
     }
+
+      .texto{
+        display: block;
+      }
+
+      .btn{
+        color: white;
+        background-color: var(--color-senary);
+        border: solid 1px #4e4e4e;
+        border-radius: 4px;
+        width: 90px;
+        height: 4vh;
+        cursor: pointer;
+        font-weight: 600;
+        position: absolute;
+        top: 82%;
+        left: 59%;
+        transition: all 0.5s;
+      }
 }
+
+
+
+
+
   
   
   
