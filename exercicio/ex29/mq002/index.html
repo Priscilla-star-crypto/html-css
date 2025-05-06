@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media querie</title>
+   <style>
+    /*declaracoes gerais*/
+
+    *{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+    html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+    h1{
+    color: white;
+    padding: 10px;
+}
+
+    /*declaracoes retrato*/
+
+    @media (orientation: portrait){
+        body{
+            background-color: blue;
+        }
+        h1{
+            color: red;
+        }
+    }
+
+    /*declaracoes paisagem*/
+
+    @media (orientation: landscape){
+        body{
+            background-color: green;
+        }
+        h1{
+            color: yellow;
+        }
+    }
+    /*declaracoes retrato e paisagem*/
+
+   </style>
+</head>
+<body>
+    <h1>mude orientacao</h1>
+</body>
+</html>
