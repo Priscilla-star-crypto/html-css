@@ -33,7 +33,7 @@
     }
 }
 
-@media( max-width: 600px){
+@media( max-width: 760px){
     .card-container{
         display: flex;
         justify-content: center;
@@ -44,7 +44,7 @@
 
      .card{
   
-        width: 260px;
+        width:80%;
         height: 36vh;
         display: flex;
         flex-direction: column;

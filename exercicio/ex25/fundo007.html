@@ -6,6 +6,7 @@
     <title>meu site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css">
+   <link rel="stylesheet" href="celular.css" media="scree and (orientation: portrait) and (max-width: 760px)">
 </head>
 <body>
   
@@ -63,12 +64,15 @@
   <div class="card-container">
     <div class="card">
     <section id="Aulas"></section>
-          <img src="imagens/peso.jpg" alt="Imagem 1">
-          <div class="texto"><h2>Peso </h2>
-           <p>
-    Lorem ipsum dolor sit amet <br> consectetur adipisicing  elit. <br> Officia quo animi libero sit <br> velit commodi  fugiat accus <br>antium porro, unde qui ape <br>
-           </p>
-          </div>
+          <picture >
+            <source media="(max-width:760px )" srcset="imagens/cros.jpg">
+            <img src="imagens/peso.jpg" alt="Imagem 1">
+            <div class="texto"><h2>Peso </h2>
+             <p>
+                Lorem ipsum dolor sit amet <br> consectetur adipisicing  elit. <br> Officia quo animi libero sit <br> velit commodi  fugiat accus <br>antium porro, unde qui ape <br>
+             </p>
+            </div>
+          </picture>
           <button class="btn">Saiba mais</button>
       </div>
       <div class="card">
