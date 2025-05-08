@@ -79,7 +79,7 @@
   }
 
   .texto h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 0.5rem;
     color: white;
     position: static;
@@ -93,10 +93,9 @@
   }
 
   .btn {
-    margin-top: 1rem;
+    margin-top: 3rem;
     position: absolute;
-    left: 55%;
- 
+    left: 53%;
     background-color: var(--color-senary);
     border: solid 1px #4e4e4e;
     border-radius: 4px;
