@@ -31,61 +31,94 @@
      width: 70vw;
 
     }
+
 }
 
-@media( max-width: 760px){
-    .card-container{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: 160vh;
-     }
+@media (max-width: 760px) {
+  .container-aulas {
+    height: auto;
+  }
 
-     .card{
-  
-        width:80%;
-        height: 36vh;
-        display: flex;
-        flex-direction: column;
-       
-     }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    height: auto;
+     
+  }
 
-    .texto p{
-        width: 200px;
+  .card {
+    display: flex;
+    flex-direction: row; /* imagem ao lado do texto */
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 600px;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+   
+  }
 
-       
-    }
+  .card img {
+    width: 200px;
+    height:37vh;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: grayscale(60%);
+  }
 
-    .card:hover{
-       
-        transition: all 0s;
-        transform: scale(1);
-    }
+  .texto {
+    display: block;
+    width: 240px;
+    padding: 0 1rem;
+   position: relative;
+  }
 
-      .texto{
-        display: block;
-      }
+  .texto h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+    color: white;
+    position: static;
+  }
 
-      .btn{
-        color: white;
-        background-color: var(--color-senary);
-        border: solid 1px #4e4e4e;
-        border-radius: 4px;
-        width: 90px;
-        height: 4vh;
-        cursor: pointer;
-        font-weight: 600;
-        position: absolute;
-        top: 82%;
-        left: 59%;
-        transition: all 0.5s;
-      }
+  .texto p {
+    font-size: 0.9em;
+    color: white;
+    text-align: left;
+    position: static;
+  }
 
-      /*planos*/
+  .btn {
+    margin-top: 1rem;
+    position: absolute;
+    left: 55%;
+ 
+    background-color: var(--color-senary);
+    border: solid 1px #4e4e4e;
+    border-radius: 4px;
+    width: 100px;
+    height: 4vh;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .card:hover {
+    transform: none;
+    transition: none;
+  }
+}
+
+
+
+  /*planos*/
 
       .container4{
-height: 160vh;
+       height: 160vh;
 
       }
 
@@ -99,7 +132,7 @@ height: 160vh;
      }
 
 
-}
+
 
 
 

@@ -40,7 +40,7 @@ background-color: #000000 ;
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -56,7 +56,7 @@ background-color: #000000 ;
     width: 110%;
     height: 70px;
     position: fixed;
-    z-index: 99;
+    z-index: 1;
     border-bottom: 0.1rem solid #868686;
    
   }
@@ -253,28 +253,30 @@ padding: 1rem;
 }
 
 .container-aulas{
-  height: 76vh;
+  height: 120vh;
   width: 100vw;
   background-color: #363636;
+
 }
 
-.card-container{
- height: 60vh;
+.card-container {
   display: flex;
-  justify-content:space-evenly;
-gap: 11px;
-  overflow: hidden;
-  padding: 1rem;
+  flex-wrap: wrap; /* Permite quebra de linha */
+  justify-content: space-evenly; /* Centraliza os cards */
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.card{
-  position: relative;
-  object-fit: cover;
-  backface-visibility: hidden;
-  margin-top: 5rem;
+.card {
   width: 100%;
-  height: 100%;
-  transition: all .7s;
+  max-width: 230px; /* Limite de largura */
+  height: auto;
+  margin-top: 2rem;
+  transition: transform 0.5s;
+  position: relative;
 }
 
 .texto{
@@ -307,14 +309,14 @@ gap: 11px;
 .btn{
   color: white;
   background-color: var(--color-senary);
-  border: solid 1px #4e4e4e;
+  border: solid 1px #555454;
   border-radius: 4px;
   width: 90px;
   height: 4vh;
   cursor: pointer;
   font-weight: 600;
   position: absolute;
-  top: 79%;
+  top: 68%;
   left: 7%;
   transition: all 0.5s;
 }
