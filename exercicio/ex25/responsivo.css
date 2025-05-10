@@ -33,6 +33,17 @@
     }
 
 }
+@media (min-width: 780px) {
+  .container-aulas{
+    height: 80vh;
+  }
+}
+
+@media (max-width: 785px) {
+  .container-aulas{
+    height: 120vh;
+  }
+}
 
 @media (max-width: 550px) {
 
@@ -41,7 +52,6 @@
   }
   
 .card-container{
- 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +59,38 @@
     margin-top: 2rem;
    
 }
-  
+
+.texto{
+  display: block;
+
+}
+
+.btn{top: 84%;}
+
+.card:hover{
+ transition:  none;
+ transform: none;
+}
+
+
+.card:hover .texto{
+  cursor: pointer;
+}
+
+/*planos*/
+
+.container4{
+height: auto;
+}
+
+  .planos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    
+  }
 
 }
 
