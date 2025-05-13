@@ -316,7 +316,7 @@ padding: 1rem;
   cursor: pointer;
   font-weight: 600;
   position: absolute;
-  top: 68%;
+  top: 84%;
   left: 7%;
   transition: all 0.5s;
 }
@@ -560,9 +560,46 @@ overflow: hidden;
        }
 
 
+/*login*/
+.container5{
+  height: 100vh;
+  background-color: #363636;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin: auto;
+ margin-top: 6rem;
+ background-color: #6b6a6a;
+ height: 40vh;
+  width: 35%;
+  
+}
+
+.login h3{
+  text-align: center;
+margin-bottom: 5rem;
+font-size: 1.6em;
+}
 
 
 
+.email1 label{
+color: rgb(255, 255, 255);
+
+}
+
+.email1 input{
+  width: 90%;
+  height: 34px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+   text-align: center;
+}
 
 
 

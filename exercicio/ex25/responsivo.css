@@ -62,10 +62,10 @@
 
 .texto{
   display: block;
-
+padding: 10px;
 }
 
-.btn{top: 84%;}
+.btn{top: 80%;}
 
 .card:hover{
  transition:  none;
