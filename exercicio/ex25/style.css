@@ -574,8 +574,7 @@ overflow: hidden;
  margin-top: 6rem;
  background-color: #6b6a6a;
  height: 40vh;
-  width: 35%;
-  
+max-width: 260px;
 }
 
 .login h3{
