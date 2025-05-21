@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meu site</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
+   
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css">
    <link rel="stylesheet" href="celular.css" media="scree and (orientation: portrait) and (max-width: 760px)">
@@ -140,30 +142,38 @@
  
 </div>
 
-<div class="container5">
-  <h1 >Entre</h1>
-     <div class="login">
-    <form action="login.php" method="POST">
-      <h3>login</h3>
-        <div class="email1">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="iemail" required>
-        </div>
-        <br>
-        <div class="senha1">
-          <label for="senha">Senha:</label>
-          <input type="password" id="senha" name="isenha" required>
-        </div>
-        <br>
-        <button type="submit">Entrar</butto>
-        <br>
-      <div class="esqueci">
-        <p> Não tem conta?<a resgistrar-se></a></p>
+  <div class="container5">
+    <h1>Entre</h1>
+        <section id="login">
+            <div class="formulario">
+
+                <form action="login.php" method="POST">
+ <h3 class="title-login">Login</h3>
+                    <div class="campo">
+                      <span class="material-symbols-outlined">
+                        person
+                    </span>  
+                        <label for="ilogin">E-mail:</label>
+                         <input type="email" name="login" id="ilogin"  required >
+                      
+                    </div>
+
+                    <div class="campo">
+                      <span class="material-symbols-outlined">
+                            passkey
+                    </span>
+                        <label for="isenha">Senha:</label>
+                         <input type="password" name="senha" id="isenha"  required minlength="8" maxlength="20">
+                       </div>
+                      <div class="Esqueci"><a href="#">Esqueci a Senha</a></div>
+                      <div class="botao-login01">
+                        <button type="submit" class="btn-login01">Entrar</button>
+                   
+                    
+            </div>
+
+        </section>
       </div>
-      
-    </form>
-  </div>
-</div>
 
 
   

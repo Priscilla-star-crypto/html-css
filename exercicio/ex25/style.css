@@ -96,7 +96,7 @@ margin-right: 18px;
 /*pagina inicial*/
 
 .home-conteiner{
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #474747e0 100%),
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #353434e0 100%),
  url(imagens/risen-wang-20jX9b35r_M-unsplash.jpg);
 
   background-size: cover;
@@ -124,7 +124,8 @@ max-width: 60rem;
 .content-home h3{
     
     font-family: var(--font-family-7);
-color: rgb(255, 255, 255);
+color: rgb(255, 250, 250);
+text-shadow: #000000 8px 6px 19px ;
     margin-top: 1rem;
     margin-left: 3rem;
     padding: 1rem 2rem;
@@ -353,7 +354,7 @@ overflow: hidden;
 
  /*plano de treino*/
  .container4{
-  height: 100vh;
+  height: 120vh;
   background-color: rgba(75, 74, 74, 0.274);
 }
 
@@ -561,44 +562,110 @@ overflow: hidden;
 
 
 /*login*/
+
+
 .container5{
-  height: 100vh;
-  background-color: #363636;
+  height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3a3a3a;
 }
 
-.login{
+.container5 h1{
+ padding-bottom: 17rem;
+ font-size: 2.6em;
+}
+
+
+
+.formulario{
+    background-color: rgb(134, 134, 134);
+    width: 290px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.title-login{
+  font-family: var(--font-family-2);
+text-shadow: rgb(121, 120, 120) 1px 2px 1px;
+   text-align: center; 
+   padding: 5px;
+   color: rgb(255, 255, 255);
+   font-size: 2em;
+}
+
+.campo{
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+}
+span{
+
+ color: rgb(255, 255, 255);  
+}
+
+.campo label{
+    font-size: 16px;
+    color: #fffbfb;
+    font-weight: 600;
+  
+}
+
+.campo input{
+  border: none;
+  border-bottom: 1px solid #ffffff; /* cor e espessura da listra */
+  outline: none; /* remove o contorno ao clicar */
+  padding-right: 3rem ;
+  margin-left: 10px;
+margin-top: 1rem;
+  transition: border-color 0.3s;
+  background-color: transparent;
+}
+
+.Esqueci a{
+ margin-left: 10rem;
+  color: #ffffff;
+  font-size: 0.9em;
+  margin-top: 1rem;
+}
+
+
+.botao-login01{
   display: flex;
   justify-content: center;
-  align-items: center;
- margin: auto;
- margin-top: 6rem;
- background-color: #6b6a6a;
- height: 40vh;
-max-width: 260px;
-}
-
-.login h3{
-  text-align: center;
-margin-bottom: 5rem;
-font-size: 1.6em;
-}
-
-
-
-.email1 label{
-color: rgb(255, 255, 255);
+ margin-top: 14px;
 
 }
 
-.email1 input{
-  width: 90%;
-  height: 34px;
-  border-radius: 10px;
-  border: none;
-  padding-left: 10px;
-  margin-bottom: 1rem;
-   text-align: center;
+.btn-login01{
+width: 118px;
+height: 34px;
+background-color: rgb(145, 145, 145);
+ border: none;
+ outline: none;
+ border-radius: 3px;
+color: #fffbfb;
+transition: all 0.5s;
+
 }
+
+.btn-login01:hover {
+
+  background-color: rgba(104, 103, 103, 0.801);
+  
+}
+
+
+
+
+
 
 
 
