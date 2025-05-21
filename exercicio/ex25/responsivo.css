@@ -43,6 +43,10 @@
   .container-aulas{
     height: 120vh;
   }
+
+  .texto p{
+  margin: auto;
+  }
 }
 
 @media (max-width: 550px) {
