@@ -567,21 +567,34 @@ overflow: hidden;
 .container5{
   height: 800px;
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     flex-direction: column;
-    background-color: #3a3a3a;
+    background-color: #383838;
 }
 
-.container5 h1{
- padding-bottom: 17rem;
- font-size: 2.6em;
+ .container5 h2{
+  margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+margin-bottom: 7rem;
+ font-size: 2.7em;
+    text-align: center;
+    background: linear-gradient(to right, #4d4d4d, #bebdbd);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding: 18px;
+ 
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+   font-family: "Lato", sans-serif;
+
 }
 
 
 
 .formulario{
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(92, 92, 92);
     width: 290px;
     height: 340px;
     border-radius: 10px;
@@ -595,7 +608,7 @@ overflow: hidden;
 
 .title-login{
   font-family: var(--font-family-2);
-text-shadow: rgb(121, 120, 120) 1px 2px 1px;
+text-shadow: rgba(43, 43, 43, 0.103) 1px 2px 1px;
    text-align: center; 
    padding: 5px;
    color: rgb(255, 255, 255);
